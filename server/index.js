@@ -18,7 +18,7 @@ app.get("/", function(req, res) {
   res.sendFile('index.html', { root: 'src'});  
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(4000, () => console.log('Example app listening on port 3000!'))
 
 // var browserSync = require("browser-sync").create();
 // var webpack = require("webpack");
